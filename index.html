@@ -1,9 +1,190 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>...</title>
-	</head>
-	<body>
-		<h1> hi </h1>
-	</body>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Thoả Thích sáng tạo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<style>
+		body{ margin: 0; padding: 0; font-family:Franklin Gothic Medium}
+		section.section1{ width: 100%; height: 100vh; 
+			background: url(https://media.maybe.vn/attachments/screenshot-2022-11-30-103519-jpg.53002/);
+			background-size: cover }
+		.logo{ float: left;text-align:center;font-family:kayonest }
+		.logo h2{padding: 100; margin: 0; color: black}
+		ul{ float: right; display: flex; margin:0; padding: 0 }
+		ul li{ list-style: none }	
+		.nav-item{ font-size: 30px;padding: 30px;text-align: center;color: black;
+			transition: 0.5s;cursor: pointer }
+		.nav-item:nth-last-child(1){
+			border-right: none }z-index: -1;transition: 0.5s}
+		.content-tabs{padding: 30px;border-radius: 10px; border-top-left-radius: 0;
+			min-height: 300px }
+		.content-tabs .tab{ display: none }
+		.content-tabs .tab.active{display: block; animation: showContent 0.5s ease-in-out 1 }
+		@keyframes showContent{ from{ opacity: 0; transform: translateY(100px) }
+								to{ opacity: 1; transform: translateY(0) }
+		}
+		.video{ text-align: center }
+		footer{
+            background-color:pink;
+            text-align:center;
+            padding:5px;
+            font-size:30px;
+			color: white
+        }
+	</style>
+	<div class="logo">
+		<h2> Fashion <br><i class='fas fa-gamepad' style='font-size:48px'></i><br> The way represent yourself </h2> 
+	</div>
+		<div class="sliderTab">
+			<ul class="nav-tabs">
+				<li class="nav-item active" data-target="trang chu"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+				<li class="nav-item" data-target="gioi thieu">Giới thiệu</a></li>
+				<li class="nav-item" data-target="nhan vat"> Nhân vật </a></Li>
+				<li class="nav-item" data-target="huong dan"> Hướng dẫn </a></Li>
+			<div class="bg-active"></div>
+			</ul> 
+			<section class="section1"></section>
+			<div class="content-tabs">
+				<div class="tab active" id="trang chu">
+					<h2 align="center" style="border: 0px solid black; padding: 10px; margin:0px; font-family: Courier New"><u><i>NƠI GIẢI TOẢ ĐAM <i class="fas fa-heart" style="font-size: 24px; color: red"></i> MÊ CỦA MỌI NGƯỜI</u></i> </h2>
+					<img width="180" align="left" src="https://cdn.zenquiz.net/external/2017/08/20/07/1524bbd0-857b-11e7-bf4a-050901070303-compressed.jpg" >
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+					</svg>
+					<i class="bi bi-arrow-return-right"></i> Là một thế giới mà bạn có thể thức hiện được niềm đam mê với thời trang của bản thân mà không phải lo sợ ánh nhín của người khác 0^0
+					<br><br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+					</svg>
+					<i class="bi bi-arrow-return-right"></i> Bạn có thể thoả thích phối những trang phục cùng với phong cách khác nhau mà bản thân vẫn chưa có cơ hội để thử hay tự ti về ngoại hình của bản thân 
+					<br><br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+					</svg>
+					<i class="bi bi-arrow-return-right"></i> Nếu bạn thấy hứng thú thì sao không nhanh tải về chơi cùng với bạn bè của mình ^0^
+					<hr>
+					<p style="text-align: center; font-family:Courier New"><b> > Khi đăng nhập vào bạn có thể nghe được một số âm thanh của trang phục phát ra đầy sống động ^0^</b></p>
+						<div class="video">
+							<audio controls>
+								<source src="video.mp4" type="video/mp4">
+							</audio>
+						</div>
+				<footer>
+					<div> Dung Nguyễn </div>
+				</footer>
+				</div>	
+				<div class="tab" id="gioi thieu">
+				<h2 align="center" style="border: 0px solid black; padding: 10px; margin:0px; font-family: Courier New"><u><i> NHỮNG ĐIỀU LY KỲ </u> ^ 0 ^ <u> HẤP DẪN CỦA GAME</u></i> </h2>
+				<img width="200" align="left" src="https://img.zing.vn/upload/ngoisao/source/thumb/mobile_3a2a837a80ca440590d2577880652884-ra-mat-nha-det.jpg" >
+			<br>
+			<h1 style="font-family:Verdana; color: pink"><i class="material-icons"> ensp cloud</i> Game dành cho mọi người ^0^ </h1>
+				<p style="font-family:Courier New"><b>&nbsp Là một người yêu thích thời trang thì không thể bỏ qua tựa game này </b></p>
+			<br>
+			<hr>
+				<img width="200" align="right" src="https://banthe24h.vn/pictures/images/cach-choi-game-ngoi-sao-thoi-trang6.jpg">
+			<h1 style="font-family:Verdana; color: pink"><i class="material-icons"> ensp cloud </i> Cốt truyện lôi cuốn ^0^ </h1>
+				<p style="font-family:Courier New"><b>&nbsp &nbsp Là một người yêu thích thể loại xuyên không thì không thể bỏ qua được tựa game này. Bạn sẽ bước vào cuộc hành trình với 7 quốc gia cùng với những phong cách khác nhau, mới 
+				 bắt đầu thì bạn sẽ đồng hành với MuMu, Yoko và bạn sẽ xuyên không thành nhân vật Nikki bạn có thể quen biết với các nhân vật khác sau khi bạn vượt qua các chặn của cốt truyện</b></p>
+			<br>
+			<hr>
+			<h1 style="font-family:Verdana;  color: pink"><i class="material-icons"> ensp cloud</i> Những tín năng của game ^0^ </h1>
+				<p style="font-family:Courier New"><b>&nbsp > Hệ thống trang phục lên đến hàng ngàn vật phẩm
+				<br>&nbsp > Nhiệm vụ hàng ngày để thu thập vật phẩm mới hoặc vật phẩm đặc biệt.
+				<br>&nbsp > Thiết kế quần áo, phụ kiện mới từ các vật phẩm hiện có.
+				<br>&nbsp > Bạn có thể chia sẻ thành quả thiết kế của mình lên Facebook
+				<br>&nbsp > Tính năng kết bạn và tặng tim giữa những người chơi </b></p>
+				</div>
+				<div class="tab" id="nhan vat">
+				<h1 style="font-family:Times New Roman; color: #ff5656"> &nbsp- Mới bắt đầu sẽ đồng hành cùng các nhân vật sau đây =>> </p>
+				&nbsp <img width="435"  src="http://img.zing.vn/upload/ngoisao/source/News/31_12_15/nhan-vat-1.png">
+				<img width="435" src="http://img.zing.vn/upload/ngoisao/source/News/31_12_15/nhan-vat-3.png">
+				<img width="435"  src="http://img.zing.vn/upload/ngoisao/source/News/31_12_15/nhan-vat-4.png">
+				<h1 style="font-family:Times New Roman; color: #ff5656"> &nbsp- Nếu bạn đủ kiên nhẫn hay là thời gian thì người đồng hành hoắc gặp gỡ sẽ nhiều hơn ^0^</h1>
+					&nbsp  <img width="330"  src="images/h1.jpg">
+					<img width="330"  src="images/h2.jpg">
+					<img width="330"  src="images/h3.jpg">
+					<img width="330"  src="images/h4.jpg">
+					<br>
+					&nbsp <img width="330"  src="images/h5.jpg">
+					<img width="330"  src="images/h6.jpg">
+					<img width="330"  src="images/h7.jpg">
+					<img width="330"  src="images/h8.jpg">
+					<br>
+					&nbsp <img width="330"  src="images/h9.jpg">
+					<img width="330"  src="images/h10.jpg">
+					<img width="330"  src="images/h11.jpg">
+					<img width="330"  src="images/h12.jpg">
+					<br>
+					&nbsp <img width="330"  src="images/h13.jpg">
+					<img width="330"  src="images/h14.jpg">
+					<img width="330"  src="images/h15.jpg">
+					<img width="330"  src="images/h16.jpg">
+				</div>
+				<div class="tab" id="huong dan">
+				<hr>
+				<img width="330" align="left" src="images/h20.jpg">
+				<h3 style="font-family:Verdana; color: #f48989 ">&nbsp - Nếu bạn muốn tạo trang phục thì game này cũng có thể đáp ứng cho bạn ^^</h3>
+				<br>	
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center">  Nơi tạo ra những trang phục mới từ những bộ bản thân có và thuộc tính của chúng sẽ mạnh hơn =>></p>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center"><u>Điều kiện để mở</u>: hoàn thành ải 1-8 Thiếu Nữ</p>
+				<br>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center">  Dùng các trạng phục phụ ghép thành trang phục mới đẹp hơn, phẩm chất cao hơn nhưng cần phải có bản vẽ =>> </p>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center"><u>Điều kiện để mở</u>: hoàn thành ải 2-6 Thiếu Nữ</p>
+				<br>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center">  Từ trang phục cấp thấp nâng cấp thành trang phục có chi tiết sắc xảo, lung linh hơn rất nhiều =>></p>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center"><u>Điều kiện để mở</u>: hoàn thành ải 3-3 Thiếu Nữ</p>
+				<br>	
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center">  Tách trang phục dư thừa để nhận nguyên liệu dùng cho thiết kế hoặc hợp thành trang phục hiếm =>></p>
+					<p style="font-size: 130%; font-family: Times New Roman; text-align:center"><u>Điều kiện để mở</u>: hoàn thành ải 1-8 Thiếu Nữ</p>
+				<hr>
+				<p style="font-size: 200%; font-family: Times New Roman; text-align:center; color: red"><u><i><b> Là một người thích gacha thì không thể bỏ lở  </u> =>> <u> NHÀ KÌ BÍ</b></i></u></p>
+				<p style="font-size: 200%; font-family: Times New Roman; text-align:center"><b>Nếu may mắn bạn sẽ nhận được trang phục minh thích hay là có thuộc tính hiếm, có thể tích luỹ để đổi những trang phục trong nhà kỳ bí </b></p>
+				&nbsp &nbsp <img width="215"  src="images/h21.jpg">
+				<img width="215"  src="images/h17.jpg">
+				<img width="220"  src="images/h22.jpg">
+				<img width="215"  src="images/h23.jpg">
+				<img width="220"  src="images/h24.jpg">
+				<img width="215"  src="images/h25.jpg">
+				<hr>
+				<img width="215" align="left"  src="images/h19.jpg">	
+				<img width="215" align="left"  src="images/h18.jpg">
+				<img width="215" align="right"  src="images/h28.jpg">
+				<p style="font-size: 200%; font-family: Times New Roman; text-align:center; color:pink"><b> <<= </b> Bạn của bạn không chơi với bạn không cần sợ chỉ cần vô hội bạn sẽ quen và có thể thể hiện tài năng phối đồ của bản thân =]] </p>
+				<br><br><br>
+				<p style="font-size: 200%; font-family: Times New Roman; text-align:center; color: #ff56aa"> Những bạn lo sợ bản thân không thể thân thiết với mọi người trong hội thì có thể tìm bạn để kết bạn  =>> </p>
+				</div>
+			</div>
+		</div>	
+ <script>
+let navtabs = document.querySelectorAll('.sliderTab');
+    navtabs.forEach(item => {
+        item.addEventListener('click', function(event){
+            if(event.target.classList.contains('nav-item')){
+               
+                let lastActive = item.querySelector('li.active');
+                let newActive = event.target;
+                let bgActive = item.querySelector('.bg-active');
+    
+                lastActive.classList.remove('active');
+                newActive.classList.add('active');
+                bgActive.style.left = newActive.offsetLeft + 'px';
+    
+                let lastContentActive = item.querySelector('.tab.active');
+                let newContentActive = document.getElementById(newActive.dataset.target);
+                lastContentActive.classList.remove('active');
+                newContentActive.classList.add('active');
+    
+            }
+        })
+    })
+</script>
+</body>
 </html>
